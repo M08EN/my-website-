@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الاحترافي</title>
+    <link rel="stylesheet" href="css/styles.css">
+<body>
+    <!-- الشريط العلوي للموقع -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم التعريف بالموقع -->
+    <section id="home">
+        <h1>أهلاً بك في موقعنا!</h1>
+        <p>نحن نقدم أفضل الخدمات في مجال البرمجة والتصميم.</p>
+        <button onclick="scrollToSection('about')">اعرف المزيد</button>
+    </section>
+
+    <!-- قسم من نحن -->
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>نحن فريق من المطورين والمصممين المتخصصين في إنشاء المواقع والأنظمة البرمجية.</p>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section id="services">
+        <h2>خدماتنا</h2>
+        <ul>
+            <li>تصميم وتطوير المواقع الإلكترونية</li>
+            <li>تحسين محركات البحث SEO</li>
+            <li>تطوير تطبيقات الهواتف المحمولة</li>
+            <li>استشارات تقنية وبرمجية</li>
+        </ul>
+    </section>
+
+    <!-- قسم اتصل بنا -->
+    <section id="contact">
+        <h2>اتصل بنا</h2>
+        <p>إذا كنت بحاجة إلى أي مساعدة، لا تتردد في التواصل معنا.</p>
+        <form>
+            <label for="name">اسمك:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">بريدك الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">رسالتك:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- الشريط السفلي للموقع -->
+    <footer>
+        <p>&copy; 2025 موقعي الاحترافي. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
